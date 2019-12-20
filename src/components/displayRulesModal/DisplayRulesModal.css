@@ -1,0 +1,11 @@
+.invokeRulesButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  color: black !important;
+}
+
+.getBold {
+  font-weight: 900;
+  font-size: 19px
+}

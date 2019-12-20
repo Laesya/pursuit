@@ -1,0 +1,28 @@
+.white-card{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 35vw !important;
+  min-height: 75vh;
+  box-shadow: 9px 11px 37px -4px rgba(0, 0, 0, 0.75);
+  font-family: 'Open sans';
+  margin-top:60px;
+  margin-top: 0 !important;
+}
+
+.container-category{
+  display:flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+width: 35vw !important;
+min-height: 75vh !important;
+box-shadow: 9px 11px 37px -4px rgba(0, 0, 0, 0.75);
+font-family: 'Open sans';
+}
+
+.category-title{
+  font-weight: bolder;
+  margin-top: 40px;
+}

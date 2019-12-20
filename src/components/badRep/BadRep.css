@@ -1,0 +1,19 @@
+.modal-content {
+    background: rgba(0, 14, 21, 0.76) !important;
+}
+
+.modal-body {
+    color: #fff !important;
+}
+
+.modalBadStyle {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: justify;
+}
+
+.CrossBad {
+    font-size: 11rem !important;
+    color: #FF0505 !important;
+    justify-content: center;
+}

@@ -1,0 +1,39 @@
+
+.level-title{
+  margin-bottom: 50px;
+  padding-top:30px;
+  font-weight: 900 !important;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.row-button{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-button{
+  padding-bottom: 20px !important;
+  display: flex;
+  justify-content: center;
+}
+.level-button{
+  width:30vw !important;
+  height:4vh !important;
+  padding-top: 0!important;  
+  margin-bottom: 15px;
+  border-radius:0!important;
+  font-size: 1.5em !important;
+  font-weight: bolder !important;
+}
+
+.button-go{
+  border-radius:50px !important;
+  padding: 4px 45px !important;
+  margin-top:30px !important;
+  font-weight: bolder !important;
+  font-size: 1.5em !important;
+  
+}

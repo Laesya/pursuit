@@ -1,0 +1,26 @@
+@keyframes pulse {
+    0% {
+        background-color: #FF6A8B;
+    }
+    25%  {
+        background: #0275D8;
+    }
+    50%  {
+        background: #FFC300;
+    }
+    75%  {
+        background: #9E01A5;
+    }
+    100% {
+        background-color: #FF6A8B;
+    }
+}
+
+.myBackground {
+  text-align: center;
+  animation: pulse 30s infinite;
+}
+
+.mainBody {
+    padding-top: 70px;
+}

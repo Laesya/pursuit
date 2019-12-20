@@ -1,0 +1,75 @@
+/**** Medias queries ****/
+@media screen and (min-width: 768px) {
+  .mainTitle {
+    font-size: 55px !important;
+  }
+  .subTitle {
+    font-size: 17px !important;
+    margin: 20px 0 110px 0 !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mainTitle {
+    font-size: 65px !important;
+  }
+  .subTitle {
+    font-size: 20px !important;
+    margin: 20px 0 110px 0 !important;
+  }
+}
+/**** Medias queries ****/
+
+@font-face {
+  font-family: 'Sagoma-Regular';
+  src: url('../../fonts/Sagoma-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+ }
+  
+@keyframes pulse {
+    0% {
+        background-color: #FF6A8B;
+    }
+    25%  {
+        background: #0275D8;
+    }
+    50%  {
+        background: #FFC300;
+    }
+    75%  {
+        background: #9E01A5;
+    }
+    100% {
+        background-color: #FF6A8B;
+    }
+}
+
+.mainBody {
+  text-align: center;
+  animation: pulse 30s infinite;
+  min-height: 100vh;
+}
+
+.mainTitle {
+  font-family: 'Sagoma-Regular';
+  color: #FFF;
+  font-size: 35px;
+  padding-top: 30px;
+}
+
+.subTitle {
+  font-family: 'Open sans';
+  font-size: 12px;
+  margin: 20px 0 80px 0;
+  font-weight: 600;
+}
+
+a {
+  color: #FFF !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+

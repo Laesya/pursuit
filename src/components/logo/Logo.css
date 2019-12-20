@@ -1,0 +1,20 @@
+/**** Medias queries ****/
+@media screen and (min-width: 768px) {
+    img.logoWildPursuit {
+        width: 65% !important;
+        padding-top: 10% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    img.logoWildPursuit {
+        width: 35% !important;
+        padding-top: 4% !important;
+    }
+}
+/**** Medias queries ****/
+
+img.logoWildPursuit {
+    width: 75%;
+    padding-top: 30%;
+}

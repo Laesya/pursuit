@@ -1,0 +1,57 @@
+body, html {
+    font-family: 'Open sans';
+}
+
+.footer {
+    min-height: 44px;
+    background-color: #000;
+    color: #FFF;
+    // width: 100vw;
+    p {margin: 0;}
+
+    .footer-body {
+        width: 100%;
+    }
+}
+ 
+.liFooter {
+    font-size: 0.6rem;
+}
+ 
+ul.mentions {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.logoAppleAndroid {
+    li {
+        display: inline;
+    }
+}
+ 
+.logoAppleAndroid {
+    margin: 0;
+    div {
+        img {
+            width: 7vw;
+            max-width: 50px;
+        }
+    }
+}
+ 
+p {
+    font-size: 0.6rem;
+    padding-top: 8px;
+}
+ 
+.copyright {
+    padding-right: 10px;
+}
+ 
+.rowFooter {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}

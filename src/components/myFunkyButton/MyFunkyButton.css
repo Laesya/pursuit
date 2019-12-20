@@ -1,0 +1,9 @@
+.my-funky-button {
+  background-color: #27CB7C !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  font-size: 1.2rem !important;
+  padding: 10px 30px 10px 30px !important;
+  border-radius: 30px 30px !important;
+  border-color: #27CB7C !important;
+}

@@ -1,0 +1,151 @@
+/**** Medias queries ****/
+@media screen and (min-width: 375px) {
+    .colFooter.col {
+        padding-top: 10px !important;
+    }
+    ul.logoAppleAndroid, ul.corporate {
+        text-align: center;
+        padding-left: 0 !important;
+    }
+    .mainBody {
+        padding-top: 0 !important;
+    }
+    li.liFooter, .corporate li {
+        font-size: 12px !important;
+    }
+    ul.logoAppleAndroid li img {
+        width: 30% !important;
+    }
+    .logoHomepage {
+        width: 30% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .liFooter {
+        font-size: 0.9rem !important; 
+      }
+      p {
+        font-size: 0.9rem !important;
+        padding-top: 14px !important;
+      }
+      .rowFooter {
+          padding-bottom: 0 !important;
+      }
+      ul.logoAppleAndroid {
+          padding-top: 3%;
+      }
+      ul.logoAppleAndroid li img {
+          width: 20% !important;
+      }
+    .rowFooter {
+        padding-bottom: 0 !important;
+    }
+    ul.logoAppleAndroid li img {
+        width: 22% !important;
+    }
+    .logoHomepage {
+        width: 20% !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ul.mentions {
+        padding-top: 5px !important;
+    }
+    ul.logoAppleAndroid li img {
+        width: 10% !important;
+    }
+    .liFooter {
+        font-size: 0.9rem !important; 
+    }
+    p {
+        font-size: 0.9rem !important;
+        padding-top: 15px !important;
+    }
+    .logoHomepage {
+        width: 10% !important;
+    }
+}
+/**** Medias queries ****/
+
+body, html {
+    font-family: 'Open sans';
+}
+
+.footer {
+    min-height: 80px;
+    background-color: #000;
+    color: #FFF;
+    bottom:0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+ 
+ul.mentions {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.logoAppleAndroid li {
+    display: inline;
+}
+ 
+ul.logoAppleAndroid li img {
+    width: 40%;
+}
+ 
+.colFooter p {
+    font-size: 0.6rem;
+    padding-top: 8px;
+    text-align: center;
+}
+ 
+.copyright {
+    padding-right: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.colFooter p {
+    padding-top: 0 !important;
+}
+ 
+
+.logoHomepage {
+    height: 100% !important;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.colFooter.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0 !important;
+    height: 45px;
+}
+
+.logoFooter {
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-size: 14px !important;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
